@@ -1,0 +1,129 @@
+/* =================
+  WRITE YOUR CSS HERE.
+  Check the ⌄ for help with formatting and validating your code.
+  You must write some CSS to complete this challenge.
+   ===================
+*/
+html,
+body {
+  margin: 0;
+  height: 100%;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+.c-site-header{
+  width: 100%;
+  height: auto;
+  background: #edf2fc;
+  font-family: 'Poppins', sans-serif;
+  position: relative;
+}
+nav{
+  width: 80%;
+  margin: auto;
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo{
+  width: 120px;
+  cursor: pointer;
+  opacity: 0.9;
+}
+nav ul li{
+  display: inline-block;
+  list-style: none;
+  margin: 10px 20px;
+}
+nav ul li a{
+  text-decoration: none;
+  color: #606163;
+}
+nav ul li a:hover{
+  color: #ff4321;
+}
+.btn{
+  background: #ff4321;
+  border-radius: 5px;
+  padding: 10px 18px;
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+  border: 1px solid transparent;
+  transition: all 0.4s ease;
+}
+.btn:hover{
+  background: transparent;
+  color: #ff4321;
+  border: 1px solid #ff4321;
+}
+.info{
+  margin-left:8%;
+  margin-top: 10%;
+}
+.info h1{
+  font-size: 40px;
+  color: #444242;
+}
+.info h1 span{
+  color:#ff4321;
+}
+info p{
+  color: #606163;
+  line-height: 22px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.img-box{
+  width:5%;
+  height:80%;
+  position: absolute;
+  bottom: 0px;
+  right: 50px;
+}
+.img-box img{
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  bottom:0;
+  transform: translateX(-20%);
+  transiton: bottom 1s, left 1s;
+}
+.back-img{
+  filter: invert(33%) sepia(52%) saturate(4225%) hue-rotate(349deg) brightness(107%) contrast(101%);
+}
+.img-box:hover .back-img{
+  bottom: -10px;
+  transition: 1s;
+}
+.img-box:hover .man-img{
+  left: 54%;
+  transition: 1s;
+}
+.social{
+  margin-left: 8%;
+  margin-top: 25px;
+  
+}
+.social a{
+  font-size: 25px;
+  color: #606163;
+  margin-right: 20px;
+}
+.social a:hover{
+  color: #ff4321;
+}
+iframe{
+  width: auto;
+  height:auto;
+  border: none;
+}
+
+
+/* don't edit this */
+.jest-lite-report__status--pass {
+  background: var(--color-pass);
+}
+.jest-lite-report__errors { display:none }
+
